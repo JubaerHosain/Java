@@ -1,4 +1,4 @@
-package Chapter8;
+package Chapter8.Time1;
 
 // TIme1 class declaration maintains the time in 24-hour format.
 public class Time1 {

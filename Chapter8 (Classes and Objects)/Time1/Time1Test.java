@@ -1,4 +1,4 @@
-package Chapter8;
+package Chapter8.Time1;
 // Time object used in an app
 
 public class Time1Test {
