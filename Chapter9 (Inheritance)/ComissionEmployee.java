@@ -81,6 +81,6 @@ public class ComissionEmployee extends Object{
 	@Override // indicates that this method overrides a superclass method
 	public String toString() {
 		return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f", "Commission employee",
-				firstName, lastName, "socual security number", ssn, "gross sales", grossSales, "commission rate", commissionRate);
+				getFirstName(), getLastName(), "socual security number", getSSN(), "gross sales", getGrossSales(), "commission rate", getCommissionRate());
 	}
 }
