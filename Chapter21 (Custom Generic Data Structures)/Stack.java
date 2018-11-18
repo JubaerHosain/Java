@@ -1,5 +1,3 @@
-package Chapter21.LinkList;
-
 import java.util.NoSuchElementException;
 
 public class Stack<E> {

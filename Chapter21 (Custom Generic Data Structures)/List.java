@@ -1,5 +1,3 @@
-package Chapter21.LinkList;
-
 import java.util.NoSuchElementException;
 
 // Class to represent one node in a list

@@ -1,4 +1,3 @@
-package Chapter21.LinkList;
 // TreeNode and Tree class declarations for a binary search tree
 
 // class TreeNode definition

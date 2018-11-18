@@ -1,5 +1,3 @@
-package Chapter21.LinkList;
-
 import java.security.SecureRandom;
 
 // Binary tree test program

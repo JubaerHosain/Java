@@ -1,4 +1,3 @@
-package Chapter21.LinkList;
 import java.util.NoSuchElementException;
 
 // Stack manipulation program
