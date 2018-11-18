@@ -79,6 +79,33 @@ public class List<E> {
 		return removedItem; // Retrun removed node data
 	}
 	
+	// Remove last node from list
+	public E removeFromBack() throws NoSuchElementException{
+		if(isEmpty()) { // throw exception
+			throw new NoSuchElementException(name + " is empty");
+		}
+		
+		E removedItem = lastNode.data; // Retrieve data being removed
+		
+		// Update references firstNode and lastNode
+		if(firstNode == lastNode) {
+			firstNode = lastNode = null;
+		}
+		else { // Locate new last node
+			ListNode<E> current = firstNode;
+			
+			// Loop while current node does not refer to lastNode
+			while(current.nextNode != lastNode) {
+				current = current.nextNode;
+			}
+			
+			lastNode = current; // current is new lastNode
+			current.nextNode = null;
+		}
+		
+		return removedItem; // return removed node data
+	}
+	
 	// Determine whether list is empty: returns true if so
 	public boolean isEmpty() { 
 		return firstNode == null;
