@@ -14,7 +14,6 @@ public class SetTest {
 		String[] colors = {"red", "white", "blue", "green", "grey", "orange", "tan",
 				"white", "cyan", "peach", "gray", "orange"};
 		List<String> list = Arrays.asList(colors);
-		Collections.sort(list);
 		System.out.printf("List(%d): %s%n", list.size(), list);
 		
 		// eliminate duplicates then print the unique values
