@@ -1,7 +1,9 @@
 package Ch17.Employee;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.function.Predicate;
 
 // Processing streams of Employee objects
 public class ProcessingEmployees {
@@ -24,5 +26,14 @@ public class ProcessingEmployees {
 		System.out.println("Complete Employee list:");
 		list.stream().forEach(System.out::println);
 		
+		// Predicate that returns true for salaries in the range $4000 - $6000
+		Predicate<Employee> fourToSixThousand = e -> (e.getSalary() >= 4000 && e.getSalary() <= 6000);
+		
+		// Display Employees with salaries in the range $4000 - $6000 sorted into ascending order by salary
+		System.out.printf("%nEmployees earning $4000 - $6000 per month sorted by salary:%n");
+		list.stream().filter(fourToSixThousand).sorted(Comparator.comparing(Employee::getSalary)).forEach(System.out::println);
+		
+		// Display first Employee with salary in the range $4000 - $6000
+		System.out.printf("%nFirst employee who earns $4000-$6000:%n%s%n", list.stream().filter(fourToSixThousand).findFirst().get());
 	}
 }
