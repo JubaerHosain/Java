@@ -3,8 +3,10 @@ package Ch17.Employee;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 // Processing streams of Employee objects
 public class ProcessingEmployees {
@@ -43,15 +45,38 @@ public class ProcessingEmployees {
 		Function<Employee, String> byLastName = Employee::getLastName;
 		
 		// Comparator for comparing Employees by first name then last name
-		Comparator<Employee> lastThenFrist = Comparator.comparing(byLastName).thenComparing(byFirstName);
+		Comparator<Employee> lastThenFirst = Comparator.comparing(byLastName).thenComparing(byFirstName);
 		
 		// sort employees by last name, then first name
 		System.out.printf("%nEmployees in ascending order by last name then first:%n");
-		list.stream().sorted(lastThenFrist).forEach(System.out::println);
+		list.stream().sorted(lastThenFirst).forEach(System.out::println);
 		
 		// sort employees in descending order by last name, then first name
 		System.out.printf("%nEmployees in descending order by last name then first:%n");
-		list.stream().sorted(lastThenFrist.reversed()).forEach(System.out::println);
+		list.stream().sorted(lastThenFirst.reversed()).forEach(System.out::println);
+		
+		// display unique employee last names sorted
+		System.out.printf("%nUnique employee last names:%n");
+		list.stream().map(Employee::getLastName).distinct().sorted().forEach(System.out::println);
+		
+		// display only first and last names
+		System.out.printf("%nEmployee names in order by last name then first name:%n");
+		list.stream().sorted(lastThenFirst).map(Employee::getName).forEach(System.out::println);
+		
+		// group Employee by department
+		System.out.printf("%nEmployees by deaprtment:%n");
+		Map<String, List<Employee>> groupedByDepartment = list.stream().collect(Collectors.groupingBy(Employee::getDepartment));
+		groupedByDepartment.forEach(
+				(department, employeesInDepartment) -> {
+					System.out.printf("%n%s%n", department);
+					employeesInDepartment.forEach(employee -> System.out.printf("    %s%n", employee));
+				}
+		);
+		
+		// count number of Employees in each department
+		System.out.printf("%nCount of Employees by departments:%n");
+		Map<String, Long> employeeCountByDepartment = list.stream().collect(Collectors.groupingBy(Employee::getDepartment, Collectors.counting()));
+		employeeCountByDepartment.forEach((department, count) -> System.out.printf("%s has %d employee(s)%n", department, count));
 		
 	}
 }
