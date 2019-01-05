@@ -1,6 +1,6 @@
 # Files, Input/Output Streams, NIO and XML Serialization
-## FileAndDirectoryInfo
-Output:   
+### FileAndDirectoryInfo
+If file exist:   
 ```java
 Enter file or directory name:
 D:\Eclipse Files\JavaFile\src\Ch15
@@ -16,7 +16,7 @@ Absolute path: D:\Eclipse Files\JavaFile\src\Ch15
 Directory contents:
 D:\Eclipse Files\JavaFile\src\Ch15\FileAndDirectoryInfo.java
 ```
-If file not exist
+If file not exist:
 ```java
 Enter file or directory name:
 C:\examples\ch15
