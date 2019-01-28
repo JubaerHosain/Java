@@ -6,7 +6,18 @@ for(int counter = 0; counter <=21; counter ++) {
 	System.out.printf("%d! = %d%n", counter, factorial(counter));
 }
 ```
-Facotorial Outputs
+Facotorial Function:
+```java
+// recursive method factorial (assumes its parameter is >= 0)
+public static long factorial(long number) {
+	if(number <=1) {	// test for base case
+		return 1;	// base case: 0! = 1 and 1! = 1
+	}
+	else	// recursion step
+		return number * factorial(number-1);
+}
+```
+Outputs:
 ```java
 0! = 1
 1! = 1
@@ -41,7 +52,18 @@ for(int counter=0; counter<=50; counter++) {
 	System.out.printf("%d! = %d%n", counter, factorial(BigInteger.valueOf(counter)));
 }
 ```
-Facotorial Outputs
+Factorial Function: 
+```java
+// recursive method factorial (assumes its parameter is >= 0)
+public static BigInteger factorial(BigInteger number) {
+	if(number.compareTo(BigInteger.ONE) <= 0) {	// test for base case
+		return BigInteger.ONE;	// base case: 0! = 1 and 1! = 1
+	}
+	else	// recursion step
+		return number.multiply(factorial(number.subtract(BigInteger.ONE)));
+}
+```
+Outputs:
 ```java
 0! = 1
 1! = 1
