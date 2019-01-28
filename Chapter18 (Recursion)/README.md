@@ -73,3 +73,47 @@ Facotorial Outputs
 49! = 608281864034267560872252163321295376887552831379210240000000000
 50! = 30414093201713378043612608166064768844377641568960512000000000000
 ```
+
+---
+
+### Fibonacci Calculator
+Fibonacci Input:
+```java
+public static BigInteger fibonacci(BigInteger number) {
+	if(number.equals(BigInteger.ZERO) || number.equals(BigInteger.ONE)) {	// base cases
+		return number;
+	}
+	else 
+		return fibonacci(number.subtract(BigInteger.ONE)).add(fibonacci(number.subtract(TWO)));
+}
+```
+Fibonacci Function:
+```java
+public static BigInteger fibonacci(BigInteger number) {
+	if(number.equals(BigInteger.ZERO) || number.equals(BigInteger.ONE)) {	// base cases
+		return number;
+	}
+	else 
+		return fibonacci(number.subtract(BigInteger.ONE)).add(fibonacci(number.subtract(TWO)));
+}
+```
+Output:
+```java
+Fibonacci of 0 is: 0
+Fibonacci of 1 is: 1
+Fibonacci of 2 is: 1
+Fibonacci of 3 is: 2
+Fibonacci of 4 is: 3
+Fibonacci of 5 is: 5
+Fibonacci of 6 is: 8
+Fibonacci of 7 is: 13
+Fibonacci of 8 is: 21
+Fibonacci of 9 is: 34
+Fibonacci of 10 is: 55
+.
+.
+.
+Fibonacci of 38 is: 39088169
+Fibonacci of 39 is: 63245986
+Fibonacci of 40 is: 102334155
+```
