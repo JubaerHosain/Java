@@ -180,3 +180,57 @@ after pass 10: 14 31 33 38 39 42 42 68 73 78*
 
 Sorted array: [14, 31, 33, 38, 39, 42, 42, 68, 73, 78]
 ```
+
+---
+
+### Insertion Sort:
+Function:   
+```java
+// sort array using insertion sort
+public static void insertionSort(int[] data) {
+	// loop over data.length - 1 elements
+	for(int next=1; next<data.length; next++) {
+		int insert = data[next]; // value to insert
+		int moveItem = next; // location to place element
+		
+		// search for place to put current element
+		while(moveItem > 0 && data[moveItem -1] > insert) {
+			// shift element right one slot
+			data[moveItem] = data[moveItem -1];
+			moveItem--;
+		}
+		
+		// place inserted element
+		data[moveItem] = insert; 
+		// output pass of algorithm
+		printPass(data, next, moveItem);
+	}
+}
+```
+Output:
+```java
+Unsorted array: [67, 34, 88, 58, 45, 35, 41, 49, 37, 32]
+
+after pass  1: 34* 67 88 58 45 35 41 49 37 32 
+               
+after pass  2: 34 67 88* 58 45 35 41 49 37 32 
+               
+after pass  3: 34 58* 67 88 45 35 41 49 37 32 
+               
+after pass  4: 34 45* 58 67 88 35 41 49 37 32 
+               
+after pass  5: 34 35* 45 58 67 88 41 49 37 32 
+               
+after pass  6: 34 35 41* 45 58 67 88 49 37 32 
+               
+after pass  7: 34 35 41 45 49* 58 67 88 37 32 
+               
+after pass  8: 34 35 37* 41 45 49 58 67 88 32 
+               
+after pass  9: 32* 34 35 37 41 45 49 58 67 88 
+               
+
+Sorted array: [32, 34, 35, 37, 41, 45, 49, 58, 67, 88]
+```
+
+---
