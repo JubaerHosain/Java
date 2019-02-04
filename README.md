@@ -7,5 +7,5 @@
 
 ### Chapter 5: Logical Operation
 1. [Auto Policy](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/AutoPolicy)
-    * [AutoPolicy] (https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
-    * [AutoPolicyTest] (https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
+    * [AutoPolicy](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
+    * [AutoPolicyTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
