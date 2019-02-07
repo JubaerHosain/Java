@@ -234,3 +234,173 @@ Sorted array: [32, 34, 35, 37, 41, 45, 49, 58, 67, 88]
 ```
 
 ---
+
+### Merge Sort:
+Function:   
+```java
+// splits array, sorts subarrays and merges subarrays into sorted array
+private static void sortArray(int[] data, int low, int high) {
+	// test base case; size of array equals 1
+	if(high - low >= 1) {
+		// calculate middle of array
+		int middle1 = (low + high) / 2;
+		int middle2 = middle1 + 1;
+		
+		// output split step 
+		System.out.printf("split:%n%s%n", subarrayString(data, low, high));
+		System.out.printf("%s%n", subarrayString(data, low, middle1));
+		System.out.printf("%s%n%n", subarrayString(data, middle2, high));
+		
+		// split array in half; sort each half (recursive calls)
+		sortArray(data, low, middle1); // first half of array
+		sortArray(data, middle2, high); // second half of array
+		
+		// merge two sorted arrays after split calls return 
+		merge(data, low, middle1, middle2, high);
+	}
+}
+
+// merge two sorted subarrays into one sorted subarray
+private static void merge(int[] data, int left, int middle1, int middle2, int right) {
+	int leftIndex = left;  // index into left subarray
+	int rightIndex = middle2;  // index into right subarray
+	int combinedIndex = left;  // index into temporary working array
+	int[] combined = new int[data.length];  // working array
+	
+	// output two subarrays before merging
+	System.out.printf("merge:%n%s%n", subarrayString(data, left, middle1));
+	System.out.printf("%s%n", subarrayString(data, middle2, right));
+	
+	// merge arrays until reaching end of either
+	while(leftIndex <= middle1 && rightIndex <= right) {
+		// place smaller of two current elements into result and move to next space in arrays
+		if(data[leftIndex] <= data[rightIndex]) {
+			combined[combinedIndex++] = data[leftIndex++];
+		}
+		else {
+			combined[combinedIndex++] = data[rightIndex++];
+		}
+	}
+	
+	// if left array is empty
+	if(leftIndex == middle2) {
+		// copy in rest of right array
+		while(rightIndex <= right) {
+			combined[combinedIndex++] = data[rightIndex++];
+		}
+	}
+	// right array is empty
+	else {
+		// copy in rest of left array
+		while(leftIndex <= middle1) {
+			combined[combinedIndex++] = data[leftIndex++];
+		}
+	}
+		
+	// copy values back into original array
+	for(int i=left; i<=right; i++) {
+		data[i] = combined[i];
+	}
+	
+	// output merged array
+	System.out.printf("%s%n%n", subarrayString(data, left, right));
+}
+```
+Output:
+```java
+Unsorted array: [59, 40, 35, 84, 80, 55, 82, 18, 69, 80]
+
+split:
+ 59 40 35 84 80 55 82 18 69 80
+ 59 40 35 84 80
+                55 82 18 69 80
+
+split:
+ 59 40 35 84 80
+ 59 40 35
+          84 80
+
+split:
+ 59 40 35
+ 59 40
+       35
+
+split:
+ 59 40
+ 59
+    40
+
+merge:
+ 59
+    40
+ 40 59
+
+merge:
+ 40 59
+       35
+ 35 40 59
+
+split:
+          84 80
+          84
+             80
+
+merge:
+          84
+             80
+          80 84
+
+merge:
+ 35 40 59
+          80 84
+ 35 40 59 80 84
+
+split:
+                55 82 18 69 80
+                55 82 18
+                         69 80
+
+split:
+                55 82 18
+                55 82
+                      18
+
+split:
+                55 82
+                55
+                   82
+
+merge:
+                55
+                   82
+                55 82
+
+merge:
+                55 82
+                      18
+                18 55 82
+
+split:
+                         69 80
+                         69
+                            80
+
+merge:
+                         69
+                            80
+                         69 80
+
+merge:
+                18 55 82
+                         69 80
+                18 55 69 80 82
+
+merge:
+ 35 40 59 80 84
+                18 55 69 80 82
+ 18 35 40 55 59 69 80 80 82 84
+
+Sorted array: [18, 35, 40, 55, 59, 69, 80, 80, 82, 84]
+```
+
+---
