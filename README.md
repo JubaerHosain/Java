@@ -19,5 +19,9 @@
 1. [ExecutorService](https://github.com/henry226/Java/tree/master/Chapter23%20(Concurrency)/ExecutorService)
     * [PrintTask](https://github.com/henry226/Java/blob/master/Chapter23%20(Concurrency)/ExecutorService/PrintTask.java)
     * [TaskExecutor](https://github.com/henry226/Java/blob/master/Chapter23%20(Concurrency)/ExecutorService/TaskExecutor.java)
+2. [SharedArray](https://github.com/henry226/Java/tree/master/Chapter23%20(Concurrency)/SharedArray)
+    * [ArrayWriter](https://github.com/henry226/Java/blob/master/Chapter23%20(Concurrency)/SharedArray/ArrayWriter.java)
+    * [SharedArrayTest](https://github.com/henry226/Java/blob/master/Chapter23%20(Concurrency)/SharedArray/SharedArrayTest.java)
+    * [SimpleArray](https://github.com/henry226/Java/blob/master/Chapter23%20(Concurrency)/SharedArray/SimpleArray.java)
 
 ---
