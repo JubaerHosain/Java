@@ -36,3 +36,38 @@ Contents of SimpleArray:
 ```
 
 ---
+
+### Shared Buffer:
+Outputs:
+```java
+Action		Value	Sum of Produced	Sum of Consumed
+------		-----	---------------	---------------
+
+Producer writes	 1	 1
+Consumer reads	 1			 1
+Consumer reads	 1			 2
+Producer writes	 2	 3
+Consumer reads	 2			 4
+Consumer reads	 2			 6
+Producer writes	 3	 6
+Producer writes	 4	10
+Consumer reads	 4			10
+Consumer reads	 4			14
+Producer writes	 5	15
+Producer writes	 6	21
+Producer writes	 7	28
+Consumer reads	 7			21
+Producer writes	 8	36
+Consumer reads	 8			29
+Producer writes	 9	45
+Consumer reads	 9			38
+Producer writes	10	55
+Producer done producing
+Terminating Producer
+Consumer reads	10			48
+
+Consumer read values totaling 48
+Terminating Consumer
+```
+
+---
