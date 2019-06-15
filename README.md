@@ -35,7 +35,7 @@
 	* [GradeBookTest](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/GradeBook/GradeBookTest.java)
 3. [ArrauListCollection](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/ArrauListCollection.java)
 4. [ArrayManipulations](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/ArrayManipulations.java)
-5. [BarChart] (https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/BarChart.java)
+5. [BarChart](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/BarChart.java)
 6. [Init2DArray](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/Init2DArray.java)
 7. [InitArray](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/InitArray.java)
 8. [InitArrayUsingCommandLine](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/InitArrayUsingCommandLine.java)
