@@ -33,6 +33,7 @@
 2. [GradeBook](https://github.com/henry226/Java/tree/master/Chapter7%20(Arrays%20and%20ArrayLists)/GradeBook)
 	*[GradeBook](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/GradeBook/GradeBook.java)
 	*[GradeBookTest](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/GradeBook/GradeBookTest.java)
+	
 3. [ArrauListCollection](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/ArrauListCollection.java)
 4. [ArrayManipulations](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/ArrayManipulations.java)
 5. [BarChart] (https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/BarChart.java)
