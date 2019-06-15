@@ -33,17 +33,6 @@
 2. [GradeBook](https://github.com/henry226/Java/tree/master/Chapter7%20(Arrays%20and%20ArrayLists)/GradeBook)
 	*[GradeBook](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/GradeBook/GradeBook.java)
 	*[GradeBookTest](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/GradeBook/GradeBookTest.java)
-	
-3. [ArrauListCollection](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/ArrauListCollection.java)
-4. [ArrayManipulations](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/ArrayManipulations.java)
-5. [BarChart] (https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/BarChart.java)
-6. [Init2DArray](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/Init2DArray.java)
-7. [InitArray](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/InitArray.java)
-8. [InitArrayUsingCommandLine](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/InitArrayUsingCommandLine.java)
-9. [PassArray](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/PassArray.java)
-10. [StudentPoll](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/StudentPoll.java)
-11. [SumArray](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/SumArray.java)
-12. [VarargsTest](https://github.com/henry226/Java/blob/master/Chapter7%20(Arrays%20and%20ArrayLists)/VarargsTest.java)
 
 ---
 
