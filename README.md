@@ -77,12 +77,9 @@
 ---
 
 ### Chapter 9: Inheritance
-1. [Auto Policy](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/AutoPolicy)
-    * [AutoPolicy](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
-    * [AutoPolicyTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
-2. [Break_ann_Continue_Test](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test)
-    * [BreakTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/BreakTest.java)
-    * [Continue](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/ContinueTest.java)
+1. [BasePlusCommissionEmployee](https://github.com/henry226/Java/blob/master/Chapter9%20(Inheritance)/BasePlusCommissionEmployee.java)
+2. [ComissionEmployee](https://github.com/henry226/Java/blob/master/Chapter9%20(Inheritance)/ComissionEmployee.java)
+3. [ComissionEmployeeTest](https://github.com/henry226/Java/blob/master/Chapter9%20(Inheritance)/ComissionEmployeeTest.java)
 
 ---
 
