@@ -84,12 +84,19 @@
 ---
 
 ### Chapter 10: Polymorphism and Interfaces
-1. [Auto Policy](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/AutoPolicy)
-    * [AutoPolicy](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
-    * [AutoPolicyTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
-2. [Break_ann_Continue_Test](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test)
-    * [BreakTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/BreakTest.java)
-    * [Continue](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/ContinueTest.java)
+1. [PayableInterface](https://github.com/henry226/Java/tree/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayableInterface)
+    * [Employee](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayableInterface/Employee.java)
+    * [Invoice](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayableInterface/Invoice.java)
+	* [Payable](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayableInterface/Payable.java)
+	* [PayableInterfaceDemo](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayableInterface/PayableInterfaceDemo.java)
+	* [SalariedEmployee](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayableInterface/SalariedEmployee.java)
+2. [PayrollSystem](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test)
+    * [BasePlusCommissionEmployee](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayrollSystem/BasePlusCommissionEmployee.java)
+    * [ComissionEmployee](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayrollSystem/ComissionEmployee.java)
+	* [Employee](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayrollSystem/Employee.java)
+	* [HourlyEmployee](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayrollSystem/HourlyEmployee.java)
+	* [PayrollSystemDemo](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayrollSystem/PayrollSystemDemo.java)
+	* [SalariedEmployee](https://github.com/henry226/Java/blob/master/Chapter10%20(Polymorphism%20and%20Interfaces)/PayrollSystem/SalariedEmployee.java)
 
 ---
 
