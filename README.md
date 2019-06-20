@@ -101,12 +101,12 @@
 ---
 
 ### Chapter 11: Exception and Handling
-1. [Auto Policy](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/AutoPolicy)
-    * [AutoPolicy](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
-    * [AutoPolicyTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
-2. [Break_ann_Continue_Test](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test)
-    * [BreakTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/BreakTest.java)
-    * [Continue](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/ContinueTest.java)
+1. [AssertTest](https://github.com/henry226/Java/blob/master/Chapter11%20(Exception%20Handling)/AssertTest.java)
+2. [DivideByZeroNoExceptionHandling](https://github.com/henry226/Java/blob/master/Chapter11%20(Exception%20Handling)/DivideByZeroNoExceptionHandling.java)
+3. [DivideByZeroWithExceptionHandling](https://github.com/henry226/Java/blob/master/Chapter11%20(Exception%20Handling)/DivideByZeroWithExceptionHandling.java)
+4. [StackUnwinding](https://github.com/henry226/Java/blob/master/Chapter11%20(Exception%20Handling)/StackUnwinding.java)
+5. [UsingChainedExceptions](https://github.com/henry226/Java/blob/master/Chapter11%20(Exception%20Handling)/UsingChainedExceptions.java)
+6. [UsingExceptions](https://github.com/henry226/Java/blob/master/Chapter11%20(Exception%20Handling)/UsingExceptions.java)
 
 ---
 
