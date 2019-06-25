@@ -116,12 +116,23 @@
 ---
 
 ### Chapter 16: Generic Collections
-1. [Auto Policy](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/AutoPolicy)
-    * [AutoPolicy](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
-    * [AutoPolicyTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
-2. [Break_ann_Continue_Test](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test)
-    * [BreakTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/BreakTest.java)
-    * [Continue](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/ContinueTest.java)
+1. [Sets](https://github.com/henry226/Java/tree/master/Chapter16%20(Generic%20Collections)/Sets)
+    * [SetTest](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/Sets/SetTest.java)
+    * [SortedSetTest](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/Sets/SortedSetTest.java)
+2. [TimeComparator](https://github.com/henry226/Java/tree/master/Chapter16%20(Generic%20Collections)/TimeComparator)
+    * [Sort3](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/TimeComparator/Sort3.java)
+    * [TimeComparator](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/TimeComparator/TimeComparator.java)
+3. [Algorithms1](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/Algorithms1.java)
+4. [Algorithms2](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/Algorithms2.java)
+5. [BinarySearchTest](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/BinarySearchTest.java)
+6. [CollectionTest](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/CollectionTest.java)
+7. [DeckOfCards](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/DeckOfCards.java)
+8. [FactoryMethods](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/FactoryMethods.java)
+9. [ListTest](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/ListTest.java)
+10. [PriorityQueueTest](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/PriorityQueueTest.java)
+11. [Sort1](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/Sort1.java)
+12. [UsingToArray](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/UsingToArray.java)
+13. [WordTypeCount](https://github.com/henry226/Java/blob/master/Chapter16%20(Generic%20Collections)/WordTypeCount.java)
 
 ---
 
