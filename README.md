@@ -137,12 +137,17 @@
 ---
 
 ### Chapter 17: Lambdas and Streams
-1. [Auto Policy](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/AutoPolicy)
-    * [AutoPolicy](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
-    * [AutoPolicyTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
-2. [Break_ann_Continue_Test](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test)
-    * [BreakTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/BreakTest.java)
-    * [Continue](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/ContinueTest.java)
+1. [Employee](https://github.com/henry226/Java/tree/master/Chapter17%20(Lambdas%20and%20Streams)/Employee)
+    * [Employee](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/Employee/Employee.java)
+    * [ProcessingEmployees](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/Employee/ProcessingEmployees.java)
+2. [ArrayAndStreams](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/ArrayAndStreams.java)
+3. [ArraysAndStreams2](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/ArraysAndStreams2.java)
+4. [IntStreamOperations](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/IntStreamOperations.java)
+5. [RandomIntStream](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/RandomIntStream.java)
+6. [RandomIntegers](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/RandomIntegers.java)
+7. [StreamFilterMapReduce](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/StreamFilterMapReduce.java)
+8. [StreamMapReduce](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/StreamMapReduce.java)
+9. [StreamReduce](https://github.com/henry226/Java/blob/master/Chapter17%20(Lambdas%20and%20Streams)/StreamReduce.java)
 
 ---
 
