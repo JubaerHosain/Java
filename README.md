@@ -154,7 +154,7 @@
 ### Chapter 18: Recursion
 1. [FactorialCalculator](https://github.com/henry226/Java/blob/master/Chapter18%20(Recursion)/FactorialCalculator.java)
 2. [FactorialCalculator2](https://github.com/henry226/Java/blob/master/Chapter18%20(Recursion)/FactorialCalculator2.java)
-3. [FactorialCalculator3](https://github.com/henry226/Java/blob/master/Chapter18%20(Recursion)/)actorialCalculator3.java)
+3. FactorialCalculator3
 4. [FibonacciCalculator](https://github.com/henry226/Java/blob/master/Chapter18%20(Recursion)/FibonacciCalculator.java)
 5. [TowersOfHanoi](https://github.com/henry226/Java/blob/master/Chapter18%20(Recursion)/TowersOfHanoi.java)
 
