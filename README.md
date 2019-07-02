@@ -183,12 +183,14 @@
 ---
 
 ### Chapter 21: Custom Generic Data Structure
-1. [Auto Policy](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/AutoPolicy)
-    * [AutoPolicy](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicy.java)
-    * [AutoPolicyTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/AutoPolicy/AutoPolicyTest.java)
-2. [Break_ann_Continue_Test](https://github.com/henry226/Java-Core-Fundamentals/tree/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test)
-    * [BreakTest](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/BreakTest.java)
-    * [Continue](https://github.com/henry226/Java-Core-Fundamentals/blob/master/Chapter5%20(Logical%20Operators)/Break_and_Continue_Test/ContinueTest.java)
+1. [List](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/List.java)
+2. [ListTest](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/ListTest.java)
+3. [Queue](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/Queue.java)
+4. [QueueTest](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/QueueTest.java)
+5. [Stack](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/Stack.java)
+6. [StackTest](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/StackTest.java)
+7. [Tree](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/Tree.java)
+8. [TreeTest](https://github.com/henry226/Java/blob/master/Chapter21%20(Custom%20Generic%20Data%20Structures)/TreeTest.java)
 
 ---
 
