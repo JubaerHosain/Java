@@ -1,9 +1,6 @@
 package com.company;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import java.lang.reflect.*;
 import java.util.Arrays;
 
 public class Main {
@@ -63,8 +60,115 @@ public class Main {
         ch.doNotUseIt();
     }
 
-    public static void main(String[] args) throws ClassNotFoundException {
+    private static void invokePrivateMethod() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Class<?> cl = Class.forName("com.company.Welcome");
+        Method method = cl.getDeclaredMethod("greet", String.class);
+        method.setAccessible(true);
+        Object object = method.invoke(new Welcome(), "Jubaer");
+        String message = (String) object;
+        System.out.println("Greeting: " + message);
+    }
+
+    private static void invokePrivateVariable() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, NoSuchFieldException {
+        Class<?> cl = Class.forName("com.company.Welcome1");
+        Field field = cl.getDeclaredField("message");
+        field.setAccessible(true);
+        Object object = field.get(new Welcome1());
+        String message = (String) object;
+        System.out.println("The message is: " + message);
+    }
+
+    private static void aboutConstructor() throws ClassNotFoundException, NoSuchMethodException {
+        Class<?> cl = Class.forName("com.company.TestClass");
+
+//        System.out.println("Constructors: " + Arrays.toString(cl.getConstructors()));
+//        Constructor<?> constructor = cl.getConstructor(int.class, String.class);
+//        System.out.println("Constructors: " + constructor.toString());
+//
+//        Constructor<?> declaredConstructor = cl.getDeclaredConstructor();
+//        System.out.println("Declared Constructor: " + declaredConstructor.toString());
+
+        System.out.println("Declared Constructors: " + Arrays.toString(cl.getDeclaredConstructors()));
+
+    }
+
+    private static void createInstance() throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        Class<?> cl = Class.forName("com.company.TestClass");
+
+        Constructor<?>[] constructors = cl.getDeclaredConstructors();
+        for(Constructor<?> con: constructors) {
+            System.out.println("Constructor: " + con.getName());
+            TestClass testClass;
+            if(Modifier.toString(con.getModifiers()).equals("private")) {
+                con.setAccessible(true);
+                testClass = (TestClass) con.newInstance();
+            }
+            else {
+                testClass = (TestClass) con.newInstance(200, "public");
+            }
+            testClass.showValue();
+        }
+    }
+
+    private static void identifyArray() throws ClassNotFoundException {
+        Class<?> cl = Class.forName("com.company.Employee");
+
+        Field[] fields = cl.getDeclaredFields();
+        for(Field field: fields) {
+            Class<?> type = field.getType();
+            if(type.isArray()) {
+                System.out.println("Array found: " + field.getName());
+            }
+        }
+
+        // declare array using reflection
+        double[] doubleArray = (double[]) Array.newInstance(double.class, 5);
+        System.out.println("Array length: " + doubleArray.length);
+
+        // set elements
+        Array.setDouble(doubleArray, 0, 1.0);
+        Array.setDouble(doubleArray, 1, 2.0);
+        Array.setDouble(doubleArray, 2, 3.0);
+        Array.setDouble(doubleArray, 3, 4.0);
+        Array.setDouble(doubleArray, 4, 5.0);
+
+        System.out.println("First element: " + Array.get(doubleArray, 0));
+        System.out.println("Third element: " + Array.get(doubleArray, 2));
+        System.out.println("Fifth element: " + Array.get(doubleArray, 4));
+    }
+
+    public static void getterAndSetter() throws ClassNotFoundException {
+        Class<?> cl = Class.forName("com.company.GetSet");
+
+        Field[] fields = cl.getDeclaredFields();
+        System.out.println("Fields: " + Arrays.toString(fields));
+
+
+        StringBuffer stringBuffer = new StringBuffer();
+        for(Field field: fields) {
+            String fieldName = field.getName();
+            String fieldType = field.getType().getSimpleName();
+
+            System.out.println("Field name: " + fieldName);
+            System.out.println("Field type: " + fieldType);
+
+            CommonUtil.createSetter(fieldName, fieldType, stringBuffer);
+            CommonUtil.createGetter(fieldName, fieldType, stringBuffer);
+        }
+
+        System.out.println(stringBuffer);
+    }
+
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, NoSuchFieldException, InstantiationException {
+        // Temp temp = new Temp();
+
         // initial();
-        metadata();
+        // metadata();
+        // invokePrivateMethod();
+        // invokePrivateVariable();
+        // aboutConstructor();
+        // createInstance();
+        // identifyArray();
+        getterAndSetter();
     }
 }
