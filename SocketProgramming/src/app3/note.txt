@@ -1,2 +1,0 @@
-creates ServerThread for handling multiple client simultaneously
-added reader writer thread
