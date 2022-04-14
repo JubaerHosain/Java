@@ -1,3 +1,0 @@
-1. Life cycle of thread.
-2. Constructor from thread class
-3. Synchronization of thread
