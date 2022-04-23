@@ -1,1 +1,3 @@
 1. Learn Annotations (telusko youtube channel)
+2. To send any Object(Person, Student) over java TCP Socket, 
+this object should be serializable for type casting properly.
